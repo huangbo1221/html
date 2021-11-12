@@ -1,11 +1,13 @@
 # 学习html
 ## title标签
 ![img.png](img.png)
+
 页面展示效果如下：
 ![img_1.png](img_1.png)
 
 ## html的hello world
 ![img_2.png](img_2.png)
+
 效果如下
 ![img_3.png](img_3.png)
 打开该网页源代码，如下如所示  
@@ -17,11 +19,13 @@
 ![img_5.png](img_5.png)
 展示效果如下
 ![img_6.png](img_6.png)
+
 按需调整标签级别即可
 
 ### 段落标签
 代码如下
 ![img_7.png](img_7.png)
+
 效果如下：
 ![img_8.png](img_8.png)
 本意是想让两只老虎.. 和 一只.. 分成两段，但是html格式不识别这种写法。
