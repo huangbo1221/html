@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>内联标签学习</title>
+</head>
+<body>
+<!--
+内联标签用iframe表示，可以在一个网页中打开另一个网页
+-->
+<!--<iframe src="A页面.html" frameborder="0"></iframe>-->
+<iframe src="" name="B嵌套A" frameborder="0"></iframe>
+<br/>
+这是B页面的正文
+<br/>
+<!--下面的target还可以设置成iframe的name，从而实现关联！！！-->
+<a href="A页面.html" target="B嵌套A">点击跳转</a>
+</body>
+</html>
