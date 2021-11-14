@@ -244,3 +244,104 @@ input type="reset"  重置
 
 ![img_49.png](img_49.png)
 
+## hidden、readonly、disabled、label
+### hidden
+代码如下：
+
+![img_50.png](img_50.png)
+
+显示效果如下：
+
+![img_51.png](img_51.png)
+
+可知，密码的输入框被隐藏了，但是属性是仍在的。当点击提交时，如下：
+
+![img_52.png](img_52.png)
+
+可以看到pwd=1234565
+
+### readonly
+表示只读，不能修改！代码如下：
+
+![img_53.png](img_53.png)
+
+显示效果如下：
+
+![img_54.png](img_54.png)
+
+姓名默认就是huangbo1221，不能在文本框中删掉！
+
+### disabled
+选项置灰，不能进行选择，代码如下：
+
+![img_55.png](img_55.png)
+
+初始时默认性别时男，一旦你改成了女，就无法再改回来，如下：
+
+![img_56.png](img_56.png)
+
+![img_57.png](img_57.png)
+
+### label
+有时候我们点击某个文字时，会选中某个其他地方，label标签可以达到这种目的。
+作用：增强鼠标可用性。
+代码如下：
+
+![img_58.png](img_58.png)
+
+初始显示效果如下：
+
+![img_59.png](img_59.png)
+
+当点击了“你点我试试”时，效果如下：
+
+![img_60.png](img_60.png)
+
+鼠标选中了右侧的输入框。还可以再举一个例子，如下代码：
+
+![img_61.png](img_61.png)
+
+mark2标记的是用户名的输入框，当点击“你点我试试”时，效果如下：
+
+![img_62.png](img_62.png)
+
+选中了姓名的输入框
+
+### placeholder
+提示信息的标签
+代码如下：
+
+![img_63.png](img_63.png)
+
+显示效果如下：
+
+![img_64.png](img_64.png)
+
+### required
+表示这个指定的参数必须填写。进行非空判断！
+
+代码如下：
+
+![img_65.png](img_65.png)
+
+显示效果如下：
+
+![img_66.png](img_66.png)
+
+当不输入用户名而直接提交时，效果如下：
+
+![img_67.png](img_67.png)
+
+提示必须填写该字段！
+
+### pattern
+正则表达式规则！
+代码如下：
+
+![img_68.png](img_68.png)
+
+随便输入一个邮箱后提交：
+
+![img_69.png](img_69.png)
+
+进行了正则校验！
